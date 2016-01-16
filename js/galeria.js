@@ -12,143 +12,121 @@ $(document).ready(function () {
       i18n: { thumbnailImageDescription: 'Click para ver', thumbnailAlbumDescription: 'Open Album' },
       items: [
         {
-          src: 'demonstration/01.jpg',    // image url
-          srct: 'demonstration/01t.jpg',    // thumbnail url
+          src: 'imgs/galeria/01.jpg',    // image url
+          srct: 'imgs/galeria/01.jpg',    // thumbnail url
                   // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/02.jpg',    // image url
-          srct: 'demonstration/02t.jpg',    // thumbnail url
+          src: 'imgs/galeria/02.jpg',    // image url
+          srct: 'imgs/galeria/02.jpg',    // thumbnail url
                   // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/03.jpg',    // image url
-          srct: 'demonstration/03t.jpg',    // thumbnail url
+          src: 'imgs/galeria/03.jpg',    // image url
+          srct: 'imgs/galeria/03.jpg',    // thumbnail url
                    // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/04.jpg',    // image url
-          srct: 'demonstration/04t.jpg',    // thumbnail url        // thumbnail title
+          src: 'imgs/galeria/04.jpg',    // image url
+          srct: 'imgs/galeria/04.jpg',    // thumbnail url        // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
         {
-          src: 'demonstration/05.jpg',    // image url
-          srct: 'demonstration/05t.jpg',    // thumbnail url        // thumbnail title
+          src: 'imgs/galeria/05.jpg',    // image url
+          srct: 'imgs/galeria/05.jpg',    // thumbnail url        // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
         {
-          src: 'demonstration/06.jpg',    // image url
-          srct: 'demonstration/06t.jpg',    // thumbnail url
+          src: 'imgs/galeria/06.jpg',    // image url
+          srct: 'imgs/galeria/06.jpg',    // thumbnail url
                   // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/07.jpg',    // image url
-          srct: 'demonstration/07t.jpg',    // thumbnail url
+          src: 'imgs/galeria/07.jpg',    // image url
+          srct: 'imgs/galeria/07.jpg',    // thumbnail url
                   // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/08.jpg',    // image url
-          srct: 'demonstration/08t.jpg',    // thumbnail url
+          src: 'imgs/galeria/08.jpg',    // image url
+          srct: 'imgs/galeria/08.jpg',    // thumbnail url
           title: 'image 1',             // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/09.jpg',    // image url
-          srct: 'demonstration/09t.jpg',    // thumbnail url        // thumbnail title
+          src: 'imgs/galeria/09.jpg',    // image url
+          srct: 'imgs/galeria/09.jpg',    // thumbnail url        // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
         {
-          src: 'demonstration/10.jpg',    // image url
-          srct: 'demonstration/10t.jpg',    // thumbnail url        // thumbnail title
+          src: 'imgs/galeria/10.jpg',    // image url
+          srct: 'imgs/galeria/10.jpg',    // thumbnail url        // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
         {
-          src: 'demonstration/11.jpg',    // image url
-          srct: 'demonstration/11t.jpg',    // thumbnail url
+          src: 'imgs/galeria/11.jpg',    // image url
+          srct: 'imgs/galeria/11.jpg',    // thumbnail url
                   // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/12.jpg',    // image url
-          srct: 'demonstration/12t.jpg',    // thumbnail url
+          src: 'imgs/galeria/12.jpg',    // image url
+          srct: 'imgs/galeria/12.jpg',    // thumbnail url
                   // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/13.jpg',    // image url
-          srct: 'demonstration/13t.jpg',    // thumbnail url
+          src: 'imgs/galeria/13.jpg',    // image url
+          srct: 'imgs/galeria/13.jpg',    // thumbnail url
           title: 'image 1',             // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/14.jpg',    // image url
-          srct: 'demonstration/14t.jpg',    // thumbnail url        // thumbnail title
+          src: 'imgs/galeria/14.jpg',    // image url
+          srct: 'imgs/galeria/14.jpg',    // thumbnail url        // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
         {
-          src: 'demonstration/15.jpg',    // image url
-          srct: 'demonstration/15t.jpg',    // thumbnail url        // thumbnail title
+          src: 'imgs/galeria/15.jpg',    // image url
+          srct: 'imgs/galeria/15.jpg',    // thumbnail url        // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
         {
-          src: 'demonstration/16.jpg',    // image url
-          srct: 'demonstration/16t.jpg',    // thumbnail url
+          src: 'imgs/galeria/16.jpg',    // image url
+          srct: 'imgs/galeria/16.jpg',    // thumbnail url
                   // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/17.jpg',    // image url
-          srct: 'demonstration/17t.jpg',    // thumbnail url
+          src: 'imgs/galeria/17.jpg',    // image url
+          srct: 'imgs/galeria/17.jpg',    // thumbnail url
                   // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/18.jpg',    // image url
-          srct: 'demonstration/18t.jpg',    // thumbnail url
+          src: 'imgs/galeria/18.jpg',    // image url
+          srct: 'imgs/galeria/18.jpg',    // thumbnail url
           title: 'image 1',             // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
          {
-          src: 'demonstration/19.jpg',    // image url
-          srct: 'demonstration/19t.jpg',    // thumbnail url        // thumbnail title
+          src: 'imgs/galeria/19.jpg',    // image url
+          srct: 'imgs/galeria/19.jpg',    // thumbnail url        // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
         {
-          src: 'demonstration/20.jpg',    // image url
-          srct: 'demonstration/20t.jpg',    // thumbnail url        // thumbnail title
+          src: 'imgs/galeria/20.jpg',    // image url
+          srct: 'imgs/galeria/20.jpg',    // thumbnail url        // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
         {
-          src: 'demonstration/21.jpg',    // image url
-          srct: 'demonstration/21t.jpg',    // thumbnail url
+          src: 'imgs/galeria/21.jpg',    // image url
+          srct: 'imgs/galeria/21.jpg',    // thumbnail url
                   // thumbnail title
-          //description : 'image 1 description'   // thumbnail description
-        },
-         {
-          src: 'demonstration/22.jpg',    // image url
-          srct: 'demonstration/22t.jpg',    // thumbnail url
-                  // thumbnail title
-          //description : 'image 1 description'   // thumbnail description
-        },
-         {
-          src: 'demonstration/23.jpg',    // image url
-          srct: 'demonstration/23t.jpg',    // thumbnail url
-          title: 'image 1',             // thumbnail title
-          //description : 'image 1 description'   // thumbnail description
-        },
-         {
-          src: 'demonstration/24.jpg',    // image url
-          srct: 'demonstration/24t.jpg',    // thumbnail url        // thumbnail title
-          //description : 'image 1 description'   // thumbnail description
-        },
-        {
-          src: 'demonstration/25.jpg',    // image url
-          srct: 'demonstration/25t.jpg',    // thumbnail url        // thumbnail title
           //description : 'image 1 description'   // thumbnail description
         },
 
