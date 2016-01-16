@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Galeria</title>
+
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+
+
+	<link href="css/estilo960liquido.css" rel="stylesheet" type="text/css">
+	<link href="css/estilo.css" rel="stylesheet" type="text/css"> <!-- hoja de estilo principal -->
+	<link href="css/estiloGaleria.css" rel="stylesheet" type="text/css"> 
+	<!-- <link href="css/slideshow.css" rel="stylesheet" type="text/css"> -->
+	<link href="css/menu.css" rel="stylesheet" type="text/css"> <!-- hoja de estilo del menu -->
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> <!-- iconos -->
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+	<!-- nanoGALLERY plugin files -->
+	<link href="css/nanogallery.min.css" rel="stylesheet" type="text/css">
+		<link href="css/themes/clean/nanogallery_clean.css" rel="stylesheet" type="text/css">
+
+	<link href="css/themes/light/nanogallery_light.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="js/jquery.nanogallery.min.js"></script>
+
+	<script src="js/script.js"></script>
+	<script src="js/galeria.js"></script>
+	 <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+</head>
+<body>
+	<header>
+
+		<div class="container_12">
+			
+			<div class="grid_12 alpha omega" style="background-color: #000; width: 100%;">
+				<canvas id="logo" class="grid_4 alpha"></canvas>
+				<canvas id="canvita" width="750" height="150">IV Festival nacional de cine de Sevilla</canvas>
+				
+				<script>					
+					var c1=document.getElementById("logo");
+					var ctx1=c1.getContext("2d");
+					var img = new Image();
+					img.src = "imgs/Logo.png";					
+					img.onload = function(){
+					  ctx1.drawImage(img, 0, 0);
+					}
+
+					var c=document.getElementById("canvita");
+					var ctx=c.getContext("2d");
+					ctx.textBaseline = 'middle';
+					ctx.fillStyle = 'white';
+					ctx.font = '24px Droid Serif';
+					ctx.fillText("IV Festival nacional de cine de Sevilla",50,80);
+					
+				</script>
+			</div>
+				
+
+
+	        <ul id="nav">
+	            <li id="inicio-link"><a href="inicio.html">INICIO</a></li>
+	            <li id="directores-link"><a href="Directores/maindirectores.html">Directores</a>
+	                <span id="s1"></span>
+	                <ul class="subs">
+	                    <li><a href="Directores/director1.html">Valentino</a>
+
+	                   <!--  <li><a href="#">Diseñador 1</a>
+	                        <ul>
+	                            <li><a href="#">Submenu x</a></li>
+	                            <li><a href="#">Submenu y</a></li>
+	                            <li><a href="#">Submenu z</a></li>
+	                        </ul>
+	                    </li> -->
+	                   
+	                </ul>
+	            </li>
+	            <li id="peliculas-link"><a href="Peliculas/mainpeliculas.html">Peliculas</a></li>
+	                <span id="s2"></span>
+	                <ul class="subs">
+	                    <li><a href="Peliculas/pelicula1.html">Valentino</a>
+
+	                   <!--  <li><a href="#">Diseñador 1</a>
+	                        <ul>
+	                            <li><a href="#">Submenu x</a></li>
+	                            <li><a href="#">Submenu y</a></li>
+	                            <li><a href="#">Submenu z</a></li>
+	                        </ul>
+	                    </li> -->
+	                   
+	                </ul>
+	            </li>
+	            <li id="programacion-link"><a href="Programacion/mainprogramacion.html">Programación</a>
+	                <span id="s3"></span>
+	                <ul class="subs">
+	                    <li><a href="Programacion/Lunes.html">Lunes</a></li>
+	                    <li><a href="Programacion/Martes.html">Martes</a></li>
+	                    <li><a href="Programacion/Miercoles.html">Miércoles</a></li>
+	                    <li><a href="Programacion/Jueves.html">Jueves</a></li>
+	                    <li><a href="Programacion/Viernes.html">Viernes</a></li>
+	                    <li><a href="Programacion/Sabado.html">Sábado</a></li>
+	                    <li><a href="Programacion/Domingo.html">Domingo</a></li>
+	                    
+	                </ul>
+	            </li>
+	            <li id="ciudad-link"><a href="ciudad.html">Ciudad</a></li>
+	            <li id="estadisticas-link"><a href="estadisticas.html">Estadísticas</a></li>
+	            <li class="active" id="galeria-link"><a href="galeria.html">Galería</a></li>
+	            <li id="gengame-link"><a href="Gengame/gengame.html">Gengame</a></li>
+	        </ul>
+	    </div>		
+	<div class="clear"></div>
+</header>
+<div class="clear"></div>
+
+
+
+<section class="galeria container_12"> 
+		<div id="nanoGallery4"></div>
+</section>
+<div class="clear"></div>
+
+
+	
+	<div class="clear"></div>
+	  
+</body>
+
+<footer id="footer-home" class="container_12">
+
+		<map name="patrocinadores">
+			<a href="http://www.grupochilefilms.cl/cc_argentina/?mod=index" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/cinecolor.png"></a>
+            <a href="http://telefe.com/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/Telefe.png"></a>
+            <a href="http://www.necdisplay.com/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/nec.png"></a>
+            <a href="http://www.dolby.com/la/es/index.html" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/Dolby.png"></a>
+            <a href="http://www.tvpublica.com.ar/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/tvp.png"></a>
+            <a href="http://www.filmsuez.com/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/filmsuez2.png"></a>
+            <a href="http://www.sundancechannel.la/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/sundance.png"></a>
+            <a href="http://www.incaatv.gov.ar/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/incaa_tv2.png"></a>
+		</map>
+		<br>
+		<ul id="rrss-bloque-home" class="grid_3">
+			<a href="https://twitter.com/IVFestival"><i class="fa fa-twitter fa rrss-icono-home"></i></a>
+			<a href="https://www.facebook.com/IVFestival"><i class="fa fa-facebook fa rrss-icono-home"></i></a>
+			<a href="https://instagram.com/IVFestival"><i class="fa fa-instagram fa rrss-icono-home"></i></a>
+		</ul>
+		<h2 id="foot-texto-home">IV Festival nacional de cine en Sevilla. 2016</h2>
+	</footer>
+</html>
