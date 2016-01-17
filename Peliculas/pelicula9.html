@@ -9,6 +9,7 @@
 	<link href="../css/menu.css" rel="stylesheet" type="text/css"> <!-- hoja de estilo del menu -->
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> 
+	<link href="http://vjs.zencdn.net/5.4.6/video-js.css" rel="stylesheet">
 	
 	<title>Peliculas</title>
 </head>
@@ -145,14 +146,17 @@
 	<section class="container_12">
 	<center>
 	<div class="grid_12">
-    	<!--<video src="../VIDEOS/Blanca1.mp4" width="500" height="290" preload controls></video>-->
-    	<video id="video1" class="video-js vjs-default-skin" controls
-		 preload="auto" width="500" height="290" poster="MY_VIDEO_POSTER.jpg"
-		 data-setup="{}">
-		 <source src="../VIDEOS/Blanca1.mp4" type='video/mp4'>
-		 <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-		</video>
-    	<p id="video1"><i>Trailer de la pelicula</i></p>
+    	<video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+  			poster="../imgs/Logo.png" data-setup="{}">
+    		<source src="trailer/saw.mp4" type='video/mp4'>
+    		<p class="vjs-no-js">
+      		To view this video please enable JavaScript, and consider upgrading to a web browser that
+      		<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    		</p>
+  		</video>
+
+  		<script src="http://vjs.zencdn.net/5.4.6/video.js"></script>
+    	<p id="my-video"><i>Trailer de la pelicula</i></p>
 	</div>
 	<br class="clear">
 	<br><br>
