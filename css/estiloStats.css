@@ -1,0 +1,154 @@
+div{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1{
+	font-fa: 
+}
+#menu{
+	margin-left: 5%;
+	margin-top: 15%;
+	/*position: fixed;*/
+	display: block;
+	z-index: 1;
+	width: 100%;
+}
+#ingresos{
+	margin-left: 15%;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	padding: 10.5px 11px;
+	background-color: #005555;
+	display:block;
+}
+.li-est{
+	list-style: none;
+	color: black;
+	margin-left: 5%;
+}
+#graficas{
+	/*float: none;
+	margin-left: 60%;
+	padding-top: 15%;*/
+
+	margin-left: 385px;
+}
+header{
+	z-index: 3;
+/*	position: fixed;
+*/}
+
+.obj-grafica{
+	/*margin: 10%;*/
+	transition:all 1s ease;
+	margin-right: 20%!important;
+	visibility: visible;
+}
+
+.obj_grafica:target{
+	  -webkit-animation: slide 0.5s forwards;
+	    -webkit-animation-delay: 2s;
+	    animation: slide 0.5s forwards;
+	    animation-delay: 2s;
+}
+
+@-webkit-keyframes .obj_grafica {
+    100% { left: 0; }
+}
+
+@keyframes .obj_grafica {
+    100% { left: 0; }
+}
+
+.menu_simple{
+	margin-left: 5%;
+	margin-top: 5%;
+	position: absolute;
+/*display: block;*/
+	/*z-index: 1;*/
+	width: 11%;
+
+
+}
+
+.clear { 
+    clear:both; 
+}
+
+.stick {
+    position:fixed !important;
+    top:0px;
+}
+
+
+.menu_simple ul {
+    margin: 0; 
+    padding: 0;
+    width:100%;
+    list-style-type: none;
+}
+
+.menu_simple ul li a {
+    text-decoration: none;
+    padding: 10.5px 11px;
+    background-color:#F5F5F5;
+    display:block;
+    color: #333333;
+    font-size: 16px;
+    -moz-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -ms-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -o-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    -webkit-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+    transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+}
+ 
+.menu_simple ul li a:visited {
+    //color: #FF495F;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: white;
+    background-color: #FF495F;
+}
+
+
+.scrollToTop{
+	width:100px; 
+	height:100px;
+	/*padding:10px; */
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	/*right:40px;*/
+	left: 4.5%;
+	display: none;
+	background: url('../imgs/topArrow.png') no-repeat;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+#contenido{
+	border: 1px dotted #FF495F;	
+	
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-bottom: 50px;
+	background-color: #F5F5F5;
+	width: 91.9%;	
+}
+body{
+	background: rgba(0,0,0,1)!important;
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 95%, rgba(255,0,0,1) 99%, rgba(255,0,0,1) 100%)!important;
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(95%, rgba(0,0,0,1)), color-stop(99%, rgba(255,0,0,1)), color-stop(100%, rgba(255,0,0,1)))!important;
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 95%, rgba(255,0,0,1) 99%, rgba(255,0,0,1) 100%)!important;
+background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 95%, rgba(255,0,0,1) 99%, rgba(255,0,0,1) 100%)!important;
+background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 95%, rgba(255,0,0,1) 99%, rgba(255,0,0,1) 100%)!important;
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 95%, rgba(255,0,0,1) 99%, rgba(255,0,0,1) 100%)!important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 )!important;
+}
