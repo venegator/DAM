@@ -1,0 +1,32 @@
+*{font-family: 'Lato', sans-serif;}
+
+
+p{
+	font-size: 14px;
+}
+
+
+a{
+	text-decoration: none;
+	color: #FF495F;
+}
+#enlace{
+	text-align: center;
+}
+.cuerpo{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+h2{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#iestilo{
+	padding-left: 62%;
+}
