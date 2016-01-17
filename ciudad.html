@@ -1,0 +1,236 @@
+<html>
+
+	
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="content-type">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Ciudad</title>
+		<link href="css/estilo960liquido.css" rel="stylesheet" type="text/css">
+		<link href="css/estiloCiudad.css" rel="stylesheet" type="text/css">
+		<link href="css/estiloModelos.css" rel="stylesheet" type="text/css">
+		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="css/estilo.css" rel="stylesheet" type="text/css">
+		<link href="css/menu.css" rel="stylesheet" type="text/css"> <!-- hoja de estilo del menu -->
+
+		<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	</head>
+	<header>
+
+		<div class="container_12">
+			
+			<div class="grid_12 alpha omega" style="background-color: #000; width: 100%;">
+				<canvas id="logo" class="grid_4 alpha"></canvas>
+				<canvas id="canvita" width="750" height="150">IV Festival nacional de cine de Sevilla</canvas>
+				
+				<script>					
+					var c1=document.getElementById("logo");
+					var ctx1=c1.getContext("2d");
+					var img = new Image();
+					img.src = "imgs/Logo.png";					
+					img.onload = function(){
+					  ctx1.drawImage(img, 0, 0);
+					}
+
+					var c=document.getElementById("canvita");
+					var ctx=c.getContext("2d");
+					ctx.textBaseline = 'middle';
+					ctx.fillStyle = 'white';
+					ctx.font = '24px Droid Serif';
+					ctx.fillText("IV Festival nacional de cine de Sevilla",50,80);
+					
+				</script>
+			</div>
+				
+
+
+	        <ul id="nav">
+	            <li id="inicio-link"><a href="inicio.html">INICIO</a></li>
+	            <li id="directores-link"><a href="Directores/maindirector.html">Directores</a>
+	                <span id="s1"></span>
+	                <ul class="subs">
+	                    <li><a href="Directores/director1.html">Peter Jackson</a>
+	                    <li><a href="Directores/director1.html">Peter Jackson</a>
+	                    <li><a href="Directores/director1.html">Peter Jackson</a>
+						<li><a href="Directores/director1.html">Peter Jackson</a>
+						<li><a href="Directores/director1.html">Peter Jackson</a>
+						<li><a href="Directores/director1.html">Peter Jackson</a>
+	                </ul>
+	            </li>
+	            <li id="peliculas-link"><a href="Peliculas/mainpeliculas.html">Peliculas</a></li>
+	                <span id="s2"></span>
+	                <ul class="subs">
+	                    <li><a href="Peliculas/pelicula1.html">Valentino</a>
+
+	                   <!--  <li><a href="#">Diseñador 1</a>
+	                        <ul>
+	                            <li><a href="#">Submenu x</a></li>
+	                            <li><a href="#">Submenu y</a></li>
+	                            <li><a href="#">Submenu z</a></li>
+	                        </ul>
+	                    </li> -->
+	                   
+	                </ul>
+	            </li>
+	            <li id="programacion-link"><a href="Programacion/mainprogramacion.html">Programación</a>
+	                <span id="s3"></span>
+	                <ul class="subs">
+	                    <li><a href="Programacion/Lunes.html">Lunes</a></li>
+	                    <li><a href="Programacion/Martes.html">Martes</a></li>
+	                    <li><a href="Programacion/Miercoles.html">Miércoles</a></li>
+	                    <li><a href="Programacion/Jueves.html">Jueves</a></li>
+	                    <li><a href="Programacion/Viernes.html">Viernes</a></li>
+	                    <li><a href="Programacion/Sabado.html">Sábado</a></li>
+	                    <li><a href="Programacion/Domingo.html">Domingo</a></li>
+	                    
+	                </ul>
+	            </li>
+	            <li class="active" id="ciudad-link"><a href="ciudad.html">Ciudad</a></li>
+	            <li id="estadisticas-link"><a href="estadisticas.html">Estadísticas</a></li>
+	            <li id="galeria-link"><a href="galeria.html">Galería</a></li>
+	            <li id="gengame-link"><a href="Gengame/gengame.html">Gengame</a></li>
+	        </ul>
+	    </div>		
+	<div class="clear"></div>
+</header>
+<body>
+	<section class="container_12">
+	<div id="caja2">
+	<div class="cuerpo">
+	<section class="container_12">
+		<h1>SEVILLA</h1><br><hr class="linea"><br><br>
+		<h2>HISTORIA</h2><br><hr><br>
+		<div class="grid_6">
+			<p>La historia de Sevilla comienza durante la Edad Antigua con el surgimiento en el actual centro de Sevilla de un primer núcleo de población identificado con la cultura tartésica, el cual, tras su destrucción atribuida a los cartagineses, dio paso a la ciudad romana de Híspalis. Durante el reino visigodo alojó en algunas ocasiones la corte.<br><br>
+
+			En Al Andalus (la España musulmana) Sevilla fue primero sede de una cora y después capital de un reino de taifas, que fue incorporado a la cristiana Corona de Castilla bajo Fernando III el Santo, primero en ser enterrado en la catedral.<br><br>
+
+			A partir de entonces Sevilla, repoblada por la aristocracia castellana y que como capital de reino fue una de las ciudades con voto en cortes, alojará en numerosas ocasiones la corte itinerante. La Baja Edad Media situó a la ciudad, su puerto y su activa colonia de mercaderes genoveses en una posición periférica pero importante en el comercio internacional europeo; al tiempo que sufría dramáticas convulsiones económicas demográficas y sociales (Peste Negra de 1348, revuelta antijudía de 1391).<br><br>
+
+			Tras el descubrimiento de América, Sevilla se convirtió en el centro económico del Imperio español, al monopolizar el comercio transoceánico (Casa de Contratación de Indias); abriéndose una verdadera Edad de Oro de las artes y las letras. 
+			</p>
+		</div>
+		<div class="grid_5">
+			<br>
+			<img src="imgs/ciudad/ciudad2.jpg" width="540" height="300"><br><br>
+			<p><i>Ciudad de Sevilla (1915).</i></p>
+		</div>		
+	</section>
+	<br class="clear"><br>
+	<section class="container_12">
+		<div class="grid_12">
+			<p>
+			Coincidiendo con su momento más brillante (el barroco), el siglo XVII significó una decadencia económica y demográfica, al tiempo que la navegación por el Guadalquivir se dificulta cada vez más, hasta que el monopolio comercial y sus instituciones se trasladan a Cádiz.<br><br>
+			La revitalización de la ciudad en el siglo XIX (industrialización, ferrocarril) coincide con la época romántica. El siglo XX, además de la trágica guerra civil, presenció hitos decisivos (Exposición Iberoamericana de 1929 y Exposición Universal de 1992) y su elección como capital de la autonomía andaluza.
+			<br><br>
+			<br><br><br>
+			<h2>GEOGRAFÍA</h2><br><hr><br>
+			<p>El término municipal de Sevilla se encuentra ubicado en la provincia de Sevilla, perteneciente a la Comunidad Autónoma de Andalucía, en el sur de la península ibérica, en la margen izquierda del río Guadalquivir; no obstante, sus barrios Triana y Los Remedios ocupan el lado derecho de este río navegable que convierte a esta ciudad en puerto fluvial. En el entorno de Sevilla hay una rica vega, así como áreas de campiña y de tierras marismeñas23 y dos zonas elevadas que conforman la comarca del Aljarafe, muy vinculada con la ciudad por ser la zona de expansión residencial de Sevilla, al Oeste, y los Alcores, al Este.
+			<br><br>
+			El término municipal de Sevilla, de 140,8 km2 de extensión,5 está representado en las hojas 984,24 98525 y 100226 del Mapa Topográfico Nacional. Limita al norte con La Rinconada, La Algaba y Santiponce; al este con Alcalá de Guadaíra; al sur con Dos Hermanas y Gelves y por el oeste, San Juan de Aznalfarache, Tomares y Camas.
+			<br><br>
+			La ciudad está ubicada en plena depresión y llanura aluvial del Guadalquivir. La altitud media sobre el nivel del mar es de 7 metros. La horizontalidad de la ciudad es reforzada por la altura generalmente baja de sus edificios, sobre todo en el centro. La Giralda es la torre más representativa de la ciudad y la más alta por muchos años, con 104 m de altura; sin embargo, hay proyectos de edificios más altos, como la torre Cajasol, cuya licencia de construcción concedió la Gerencia de Urbanismo de Sevilla en el mes de septiembre de 2008 para construir en la Isla de la Cartuja y cuyo diseño es obra del arquitecto argentino César Pelli. La torre Cajasol tendrá 178 m de altura y supondrá una inversión privada de 130,33 millones de euros.
+			</p>
+			<br><br><br>
+			<h2>CLIMA</h2><br><hr><br>
+			<p>El clima de Sevilla es mediterráneo levemente continentalizado, con precipitaciones variables, veranos secos y extremadamente calurosos e inviernos suaves y a menudo lluviosos que concentran más de la mitad de la lluvia anual. Según la clasificación climática de Köppen, corresponde a un clima Csa.36 La temperatura media anual es de 19,2 °C, una de las mayores de Europa y la más alta de las capitales peninsulares. Enero es el mes más frío con una media de temperaturas mínimas de 5,7 °C; y julio es el mes más caluroso, con una media de temperaturas máximas diarias de 36,0 °C.37 Se superan los 40 °C varias veces al año.38 Por sus temperaturas medias estivales es la capital de provincia más calurosa de España.
+			<br><br>
+			Las precipitaciones, con una media de 538,8 mm al año, se concentran entre octubre y abril; siendo diciembre el mes más lluvioso, con 99 mm. Hay un promedio de 51 días de lluvia al año, 2917 horas de sol y varios días de heladas </p>
+			<br><br><br>
+			<h2>ECONOMÍA</h2><br><hr><br><p>
+			En lo que a economía en Sevilla, hay que destacar que es una ciudad que ha sabido mantener buena parte de su patrimonio cultural y monumental.<br> 
+			El turismo, conjuntamente con las diferentes fábricas, astilleros, y la actividad que genera su puerto son la fuente de ingresos de Sevilla, el motor de su economía, sustentada en lo que a turismo se refiere, en su Semana Santa o en la Feria de Abril.<br>
+			Tanto las instituciones públicas, Ayuntamiento de Sevilla, diputación, etc. como la sociedad sevillana en general son plenamente conscientes de la importancia que tiene el turismo en Sevilla para su economía. Por lo que son muy numerosas las iniciativas orientadas a mejorar la calidad del turismo. <br>
+			En Sevilla se cuida muchísimo el estado de los monumentos, museos, calles, plazas... se ofrecen servicios de primera calidad a los turistas en temas de información de turismo, idiomas, rutas turísticas, hoteles y hostales de mucha calidad, transportes públicos, etc. <br><br>
+			Y por supuesto, también notarás en el pueblo sevillano una atención especial hacia sus visitantes, compartiendo con ellos toda su cultura y sus fiestas. Sevilla es una ciudad muy abierta donde siempre encontrarás a alguien dispuesto a ayudarte en cualquier momento.<br>
+			El sector servicios también es muy importante en la economía de Sevilla. La hostelería es de mucha calidad, te aconsejamos que disfrutes de la mejor gastronomía de Sevilla en los restaurantes, bares de tapas, tabernas... que hay por toda la capital.
+			</p>
+			<br><br><br>
+			<h2>MONUMENTOS</h2><br><hr><br>
+			<p>Sevilla es la ciudad con más monumentos catalogados en Europa, lo que la hace destacar de una forma notable en este aspecto. Entre sus monumentos destacan la «Catedral, la Giralda, el Alcázar y el Archivo de Indias», que fueron declarados Patrimonio de la Humanidad por la Unesco en 1987,9 así como la «Torre del Oro o la Plaza de España», que son candidatas a obtener dicho reconocimiento desde finales del año 2013. Posee uno de los centros históricos más extensos de España, con unas 335 hectáreas. Igualmente destacable es su casco antiguo, el más extenso de España y uno de los tres más grandes de toda Europa junto a los de Venecia y Génova, con 3,94 kilómetros cuadrados
+			<br><br>
+				Aquí tienes una lista de los principales monumentos historicos mas visitados de la ciudad:</p>
+		<section class="container_12">
+			<div class="grid_8">
+				<br>
+				<ul>
+					<li><h3>CATEDRAL</h3><br>
+					<p>
+						La catedral de Sevilla es la catedral gótica más extensa del mundo y la tercera más grande de los centros religiosos mundialmente hablando.102 Fue declarada por la Unesco Patrimonio de la Humanidad en 1987. Su construcción se inició en 1433, sobre el solar que quedó tras la demolición de la antigua Mezquita Aljama de Sevilla.<br><br><br><br><br>
+					</p>
+					</li>
+					<li><h3>GIRALDA</h3><br>
+						<p>
+							La Giralda es el campanario de la catedral de Sevilla y la torre más representativa de la ciudad. Mide 104 metros de altura y fue iniciada en el siglo XII como alminar almohade de la mezquita mayor hoy desaparecida, a imagen y semejanza del alminar de la mezquita Kutubia de Marrakech (Marruecos), no obstante su coronación renacentista y campanario, obra de Hernán Ruiz, fue construida entre 1558 y 1568 por encargo del cabildo catedralicio. Consta de tres cuerpos escalonados y 25 campanas, cada una de ellas bautizadas con un nombre.<br><br><br><br><br>
+						</p>
+					</li>
+					<li><h3>REALES ALCÁZARES</h3><br>
+						<p>
+							El Alcázar de Sevilla es el palacio real en activo más antiguo de Europa.111 Empezó a tomar su aspecto actual tras la conquista en 713 de Sevilla por los árabes, quienes utilizaron los alcázares como residencia de sus líderes desde el año 720. Tras la Reconquista en 1248, fue alojamiento del rey Fernando III de Castilla, tomándose por costumbre ser hospedaje de los sucesivos monarcas.<br><br><br><br><br>
+						</p>
+					</li>
+					<li><h3>ARCHIVO DE INDIAS</h3><br>
+						<p>
+							El Archivo General de Indias se creó en 1785 bajo el reinado de Carlos III con el objetivo de centralizar en un único lugar la documentación referente a las colonias españolas, hasta entonces dispersa en diversos archivos: Simancas, Cádiz y Sevilla. La Casa Lonja de Mercaderes de Sevilla, construida en época de Felipe II entre 1584 y 1598 por Juan de Mijares ("maestro mayor") sobre planos de Juan de Herrera, es la sede del archivo.<br><br><br><br><br>
+					</li>
+					<li><h3>PLAZA DE ESPAÑA</h3><br>
+						<p>
+							La plaza de España de Sevilla es un gran espacio abierto monumental rodeado por un edificio semicircular de estilo regionalista.124 Fue encargada su construcción al arquitecto Aníbal González para la Exposición Iberoamericana del año 1929. Aquí tuvo lugar la ceremonia de inauguración de la Exposición con la presencia del rey Alfonso XIII.<br><br><br><br><br><br>
+						</p>
+					</li>
+					<li><h3>TORRE DEL ORO</h3><br>
+						<p>
+							La Torre del Oro de Sevilla es una torre albarrana situada en el margen izquierdo del río Guadalquivir, junto a la plaza de toros de la Real Maestranza. Posiblemente su nombre en árabe era Bury al-dahab, en referencia a su brillo dorado que se reflejaba sobre el río. Durante las obras de restauración de 2005, se demostró que este brillo, que hasta entonces se atribuía a un revestimiento de azulejos, era debido a una mezcla de mortero de cal y paja prensada.
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="grid_4">
+				<br>
+				<img src="imgs/ciudad/ciudad3.png" width="370" height="180"><br><br>
+				<img src="imgs/ciudad/ciudad4.png" width="370" height="180"><br><br>
+				<img src="imgs/ciudad/ciudad5.png" width="370" height="180"><br><br>
+				<img src="imgs/ciudad/ciudad6.png" width="370" height="180"><br><br>
+				<img src="imgs/ciudad/ciudad7.png" width="370" height="180"><br><br>
+				<img src="imgs/ciudad/ciudad8.png" width="370" height="180"><br><br>
+			</div>
+		</section>
+
+
+		<section class="container_12">
+			<h2>GASTRONOMÍA</h2><br><hr><br>
+			<p></p>
+			<br>
+			<h3>Platos típicos:</h3><br>
+			<p>Entre los platos más característicos de Sevilla merece la pena destacar los siguientes:</p><br>
+			<ul>
+				<li><p><b>Cangrejo peludo de Shanghái:</b> Especie autóctona y uno de los platos más famosos de la ciudad.</p></li><br>
+			</ul>
+		</section>
+	</div>
+	<br class="clear">
+</div>
+</section>
+</body>
+
+	<footer id="footer-home" class="container_12">
+
+		<map name="patrocinadores">
+			<a href="http://www.grupochilefilms.cl/cc_argentina/?mod=index" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/cinecolor.png"></a>
+            <a href="http://telefe.com/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/Telefe.png"></a>
+            <a href="http://www.necdisplay.com/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/nec.png"></a>
+            <a href="http://www.dolby.com/la/es/index.html" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/Dolby.png"></a>
+            <a href="http://www.tvpublica.com.ar/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/tvp.png"></a>
+            <a href="http://www.filmsuez.com/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/filmsuez2.png"></a>
+            <a href="http://www.sundancechannel.la/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/sundance.png"></a>
+            <a href="http://www.incaatv.gov.ar/" target="_blank"><img src="http://www.mardelplatafilmfest.com/media/sponsors/incaa_tv2.png"></a>
+		</map>
+		<br>
+		<ul id="rrss-bloque-home" class="grid_3">
+			<a href="https://twitter.com/IVFestival"><i class="fa fa-twitter fa rrss-icono-home"></i></a>
+			<a href="https://www.facebook.com/IVFestival"><i class="fa fa-facebook fa rrss-icono-home"></i></a>
+			<a href="https://instagram.com/IVFestival"><i class="fa fa-instagram fa rrss-icono-home"></i></a>
+		</ul>
+		<h2 id="foot-texto-home">IV Festival nacional de cine en Sevilla. 2016</h2>
+	</footer>
+</html>

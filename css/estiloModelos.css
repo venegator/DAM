@@ -1,0 +1,92 @@
+*{font-family: 'Lato', sans-serif;}
+i{font-family: 'Raleway', sans-serif;}
+h1,h2,h3{font-family: 'Lato', sans-serif;}
+
+#caja2 { 
+border: 1px dotted #FF495F;	
+	
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-bottom: 50px;
+	background-color: #F5F5F5;
+}
+
+p{
+	font-size: 14px;
+}
+
+#ficha{
+	text-align: center;
+}
+
+#cabecera{
+	text-align: center;
+	border-bottom: 1px solid #FF495F;
+	border-top: 1px solid #FF495F;
+}
+
+#cabecera1{
+	text-align: center;
+	border-bottom: 2px solid #FF495F;
+}
+
+h1{
+	text-align: center;
+}
+
+#perfil{
+	border: 1px solid #000;
+  	box-shadow: 5px 5px 5px #999;
+}
+
+#fotos{
+	border: 1px solid #000;
+  	box-shadow: 3px 3px 3px #999;
+}
+
+#video2{
+	margin-left: 4%;
+	text-align: center;
+	padding-top: 3%;
+	font-size: 14px;
+}
+
+#video1{
+	text-align: center;
+	padding-top: 3%;	
+	font-size: 14px;
+}
+
+#imagenes{
+	margin-left: 3%;
+}
+
+ul{
+	list-style: none;
+}
+
+/*MAINMODELOS*/
+
+#todo{
+	margin-left: 5%;
+}
+
+#imag{
+	border: 2px solid #000;
+  	box-shadow: 3px 3px 3px #999;
+}
+#contenido{
+	width: 91.9%;
+	margin-right: auto;
+	margin-left: auto; 	
+}
+
+#cursiva{
+	padding-top: 3%;
+	font-size: 14px;
+}
+
+#titulos{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
