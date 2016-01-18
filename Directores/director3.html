@@ -16,6 +16,7 @@
 		<link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css"> <!-- iconos -->
 		<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> <!-- fuente Lato -->
+	<link href="http://vjs.zencdn.net/5.4.6/video-js.css" rel="stylesheet">
 </head>
 <header>
 
@@ -152,8 +153,34 @@
 	<br><br class="clear">
 
 	<div id="enlace"><A HREF="http://www.imdb.com/name/nm0000318/" target="_blank"><h3>Ficha en IMDB</h3></A></div>
-	</section>
 		<br><br>
+	<div id="cabecera">
+		<h2 id="titulos">VIDEO</h2>
+	</div>
+	<br><br>
+	<section class="container_12">
+	<center>
+	<div class="grid_12">
+    	<video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+  			poster="../imgs/Logo.png" data-setup="{}">
+    		<source src="Videos/Burton.mp4" type='video/mp4'>
+    		<p class="vjs-no-js">
+      		To view this video please enable JavaScript, and consider upgrading to a web browser that
+      		<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    		</p>
+  		</video>
+
+  		<script src="http://vjs.zencdn.net/5.4.6/video.js"></script>
+    	<p id="my-video"><i>Mejores películas Tim Burton</i></p>
+	</div>
+	<br class="clear">
+	<br><br>
+	</center>
+	</section>
+	</div>
+	</div>
+</section>
+
 
 <footer id="footer-home" class="container_12">
 
